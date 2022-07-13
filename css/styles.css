@@ -26,6 +26,7 @@
   --team-bl: rgba(0, 0, 0, 0.14);
   --team-br: rgba(0, 0, 0, 0.2);
   --grey-card-content: #eeeeee;
+  --hero-shadow: rgba(47, 48, 58, 0.4);
 }
 h1,
 h2,
@@ -156,12 +157,23 @@ body {
 /*Hero*/
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--background-dark-grey);
-  display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  display: flex;
+
+  background-image: linear-gradient(to right, var(--hero-shadow), var(--hero-shadow)),
+    url('../images/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .hero-title {
   color: var(--white-color);
   font-weight: 900;
@@ -256,7 +268,6 @@ h3.team-title {
 .team-specialist {
   font-weight: 400;
   letter-spacing: 0.03em;
- 
 }
 
 .team-title {
