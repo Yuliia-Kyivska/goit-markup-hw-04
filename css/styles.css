@@ -25,7 +25,7 @@
   --team-btm: rgba(0, 0, 0, 0.12);
   --team-bl: rgba(0, 0, 0, 0.14);
   --team-br: rgba(0, 0, 0, 0.2);
-  --grey-card-content: #EEEEEE;
+  --grey-card-content: #eeeeee;
 }
 h1,
 h2,
@@ -49,7 +49,7 @@ img {
 
 .link {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--grey-color);
 }
 
 .list {
@@ -59,7 +59,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
- 
 }
 
 .container {
@@ -220,33 +219,34 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-.we-do{
+.we-do {
   padding-top: 0;
 }
 .we-do-list {
---card-item: 3;
+  --card-item: 3;
 }
 
 .team {
   background-color: var(--light-gray-backg);
 }
-.team-list{
- 
+.team-list {
 }
 
 .team-item {
   box-shadow: 0px 1px 3px var(--team-btm), 0px 1px 1px var(--team-bl), 0px 2px 1px var(--team-br);
   border-radius: 0px 0px 4px 4px;
 }
-.team-content{
-    align-items: center;
-    background-color: var(--white-color);
-    border-radius: 0px 0px 4px 4px;
-    padding: 30px ;
-    margin: 0;
+.team-content {
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px;
+  margin: 0;
 }
-    
 
+h3.team-title {
+  margin-bottom: 10px;
+}
 .team-specialist,
 .team-title {
   font-size: 16px;
@@ -257,15 +257,12 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  
-
 }
 
 .team-title {
   font-weight: 500;
   letter-spacing: 0.03em;
   color: var(--color-dark);
-
 }
 
 /* портфолио контент */
@@ -287,8 +284,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
 }
- 
- .card-heading {
+
+.card-heading {
   color: var(--color-dark);
   font-weight: 700;
   font-size: 18px;
@@ -309,9 +306,7 @@ body {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--card-set-gap));
   margin-left: calc(-1 * var(--card-set-gap));
- 
 }
-
 
 .select-list {
   display: flex;
@@ -335,7 +330,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   border-radius: 4px;
-  padding: 6px 22px;;
+  padding: 6px 22px;
 }
 
 .select-button:hover,
@@ -343,17 +338,15 @@ body {
   background-color: var(--blue-logo-color);
   color: var(--white-color);
 }
-.portfolio-container{
- 
+.portfolio-container {
 }
-.portfolio-list{
+.portfolio-list {
   --card-item: 3;
 }
 /*footer */
 
 .footer {
   background-color: var(--background-dark-grey);
-
 }
 .footer-container {
   padding-top: 60px;
@@ -366,7 +359,9 @@ body {
 .address {
   font-style: inherit;
 }
-.address-list{
+.address-list {
+  display: flex;
+  flex-direction: column;
   gap: 9px;
 }
 .address-link {
