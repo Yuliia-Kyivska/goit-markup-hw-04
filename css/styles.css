@@ -153,6 +153,30 @@ body {
 .header-contact.link:focus {
   color: var(--blue-logo-color);
 }
+/*иконка письма*/
+
+.icon {
+  display: inline-block;
+  content: '';
+  fill: currentColor;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+}
+.tel-icon {
+  width: 10px;
+  height: 16px;
+}
+
+.contact-link:hover,
+.mail-icon:hover,
+.tel-icon:hover {
+  color: var(--blue-logo-color);
+}
 
 /*Hero*/
 
@@ -161,6 +185,7 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+
   background-color: var(--background-dark-grey);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -208,6 +233,25 @@ body {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
 }
+
+.benefits-card-icon {
+background-color: rgba(245, 244, 250, 1);
+margin: 0 auto 30px;
+width: 270px;
+height: 120px;
+border: none;
+padding-top: 25px;
+
+}
+
+.benefits-icon {
+  display: block;
+  content: ''; 
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+  }
 
 .benefits-title {
   font-weight: 700;
