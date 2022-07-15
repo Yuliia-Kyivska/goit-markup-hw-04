@@ -484,7 +484,12 @@ h3.team-title {
 }
 
 /* постоянные клиенты */
-
+.customer-logo-section{
+  background-color: var(--white-color);
+}
+.customer-logo-container{
+  
+}
 .customer-list{
 --card-item:6;
 }
