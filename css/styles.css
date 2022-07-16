@@ -393,6 +393,8 @@ h3.team-title {
 .select-button:focus {
   background-color: var(--blue-logo-color);
   color: var(--white-color);
+  
+
 }
 .portfolio-container {
 }
