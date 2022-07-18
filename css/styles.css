@@ -374,7 +374,7 @@ h3.team-title {
 .select-list .select-item:not(:last-child) {
   margin-right: 8px;
 }
-.select-item:hover,.select-item:focus{
+.select-button:hover,.select-button:focus{
   box-shadow: 0px 4px 4px 0px var(--button-shadow);
 }
 
