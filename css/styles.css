@@ -137,10 +137,7 @@ body {
   margin-left: auto;
 }
 
-.nav-link .link:hover,
-.nav-link .link:focus {
-  color: var(--blue-logo-color);
-}
+
 
 .active-page {
   color: var(--blue-logo-color);
@@ -159,7 +156,7 @@ body {
 
 .icon {
   fill: currentColor;
-  margin-right: 10px;
+ margin-right: 10px;
 }
 
 .mail-icon {
@@ -167,10 +164,10 @@ body {
 .tel-icon {
 }
 
-.contact-link:hover,
-.mail-icon:hover,
-.tel-icon:hover {
-  color: var(--blue-logo-color);
+.contact-link:hover,.contact-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--blue-logo-color);
 }
 
 /*Hero*/
@@ -234,7 +231,7 @@ body {
   flex-direction: column;
 }
 .portfolio-link:hover,
-portfolio-link:focus{
+.portfolio-link:focus{
    box-shadow: 0px 4px 4px 0px var(--button-shadow);
 }
 
@@ -418,6 +415,7 @@ h3.team-title {
 .footer-container {
   display: flex;
    gap: 70px;
+   align-items: baseline;
 }
 
 .footer-address {
@@ -463,7 +461,7 @@ h3.team-title {
 }
 
 .social-link-icon {
-  cursor: pointer;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,9 +471,13 @@ h3.team-title {
   height: 44px;
 }
 
+.footer .social-icon{
+  fill: var(--white-color);
+}
 .social-icon {
   fill: var(--social-icon);
 }
+
 .social-link-icon:hover .social-icon,
 .social-link-icon:focus .social-icon {
   fill: var(--white-color);
@@ -504,25 +506,21 @@ h3.team-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+    fill: var(--social-icon);
   height: 92px;
   padding: 16px;
   border: 1px solid var(--social-icon);
+  border-radius: 4px;
 }
 
 
 .customer-link:hover,
 .customer-link:focus{
   border: 1px solid var(--blue-logo-color);
-}
-.customer-link {
-   fill: var(--social-icon);
-}
-
-.customer-link:hover .customer-icon,
-.customer-link:focus .customer-icon{
   fill: var(--blue-logo-color);
 }
+
+
 
 
 .footer-social {
